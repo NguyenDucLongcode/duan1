@@ -1,0 +1,20 @@
+/* tác dụng lên thẻ con đầu tiên */
+p:first-child {
+  color: rgb(242, 0, 24);
+  font-size: 30px;
+}
+p:last-child {
+  color: blue;
+}
+/* Tác dụng lên thẻ con thứ 2 từ trên xuống để ý số 2 có thể thay */
+p:nth-child(2) {
+  color: chocolate;
+}
+/* Tác dụng lên thẻ con thứ 2 từ dưới lên để ý số 2 có thể thay */
+p:nth-last-child(2) {
+  color: rgb(30, 210, 42);
+}
+/* Tác dụng lên thẻ div chỉ có 1 thẻ p duy nhất */
+p:only-child {
+  color: aquamarine;
+}

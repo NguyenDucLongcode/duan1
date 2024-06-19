@@ -1,0 +1,41 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: #ff0000;
+  /* trên- phải-dưới-trái */
+  padding: 20px 10px 30px 15px;
+  /* viền :độ rộng -kiểu viền-màu */
+  border: 10px solid black;
+  /* Bo biền:  */
+  border-radius: 30px;
+  color: yellow;
+  /* Khoảng cách của nó với phần tử liền kề nó */
+  margin: 15px;
+}
+
+/* thử căn giữa nội dung bằng margin */
+.khoi {
+  width: 700px;
+  margin: 0 auto;
+  background-color: yellow;
+  text-align: center;
+}
+.khoi h2 {
+  font-size: 30px;
+  background-color: blue;
+}
+.khoi p {
+  font-size: 20px;
+  line-height: 1.5;
+  color: red;
+  border: 10px solid blue;
+  padding: 20px;
+  margin: 30;
+}
+.khoi img {
+  max-width: 400px;
+  max-height: 600px;
+}
+.khoi .box {
+  margin: 20px 227.9px;
+}

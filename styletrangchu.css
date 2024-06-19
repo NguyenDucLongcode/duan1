@@ -1,0 +1,29 @@
+body {
+  background-color: blanchedalmond;
+  background-image: url(./img/gaiamime.jpg);
+}
+
+/* h2 { opacity,display,visibility: ; */
+/* opacity: 0.5;
+  ẩn khỏi giao dienj nhưng vẫn chiếm không gian */
+/* display: none;
+  ẩn khỏi giao diện ko chiếm ko gian */
+/* visibility: hidden;
+  ẩn khỏi giao dienj nhưng vẫn chiếm không gian */
+p {
+  color: rgb(232, 29, 29);
+}
+h1 {
+  color: blue;
+}
+/* gọi id bằng dấu #  ko đặt trùng , ko bắt đầu bằng số */
+#tieude {
+  color: aqua;
+}
+/* gọi id bằng dấu . đc đặt trùng */
+.demo {
+  color: blueviolet;
+}
+.demo2 {
+  font-size: 40px;
+}

@@ -1,0 +1,27 @@
+Tác động lên tất cả thẻ bỏ trong dấu 
+/* * {
+  color: red;
+  font-size: 25px;
+} */
+Chỉ tác động lên thẻ h hai mà có class là demo gọi ra với phan ten class 
+/* h2.demo {
+  color: red;
+} */
+Tác động tất cả các thẻ có class là demo gọi ra với dấu. 
+/* .demo {
+  color: red;
+} */
+Gọi id ra bằng dâu tên
+/* #det {
+  color: aqua;
+} */
+Liệu kê các phần tử tên 1 dòng ngăn cách nhau bằng dấu ,
+/* h1,
+.demo,
+#det p {
+  color: blue;
+} */
+chọn phần tử chỉ có class dôm và demo2 thôi
+/* .demo .demo2 {
+  color: aqua;
+} */

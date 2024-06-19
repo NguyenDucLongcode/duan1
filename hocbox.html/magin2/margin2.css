@@ -1,0 +1,17 @@
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 2px solid grey;
+  margin-left: -70px;
+}
+/* chọn phần tử đàu tiên trong class avata */
+.avatar:first-child {
+  margin: 0;
+}
+.content {
+  background-color: yellow;
+  padding: 40px;
+  /* vì thẻ div là thuộc tính block nên sài display: để mở khóa nó; */
+  display: inline-block;
+}

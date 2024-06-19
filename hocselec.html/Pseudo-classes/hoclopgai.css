@@ -1,0 +1,43 @@
+/* Đổi màu khi mình di chuột vào dùng thẻ ten:hover */
+#line2:hover {
+  color: red;
+  font-size: 30px;
+}
+.dichuot:hover {
+  color: blue;
+  font-size: 25px;
+}
+/* Giữ chuột vào phần tử bằng thẻ ten : :active */
+#line2:active {
+  color: rgb(227, 6, 161);
+  font-size: 30px;
+}
+.dichuot:active {
+  color: rgb(123, 210, 18);
+  font-size: 25px;
+}
+/* người dùng chưa clip vào truy cập =Thẻ tên: link */
+.clip_1:link {
+  color: chocolate;
+  font-size: 30;
+}
+/* người dùng  clip vào truy cập =Thẻ tên: visited */
+.clip_1:visited {
+  color: green;
+}
+/* dùng lớp giải empty để tác động lên nội dung trống */
+.div_empty:empty {
+  background-color: blue;
+  width: 100px;
+  height: 200px;
+}
+/* khi thẻ div thêm nội dung vào thì :empty phía trên ko còn công dụng sẽ nhay xuống bên dưới */
+.div_empty {
+  background-color: rgb(249, 9, 37);
+  width: 100px;
+  height: 200px;
+}
+/* KHi nhảy đến h2 khi trên url có hash tương ứng (muốn hiểu thì clip vào code phía dưới                                                              */
+h2:target {
+  color: brown;
+}
